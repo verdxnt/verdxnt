@@ -117,8 +117,7 @@ A tool to aggregate threat intelligence on URLs — pulling WHOIS, DNS records, 
 |--------|-------|
 | 🟢 Active | PortSwigger Web Security Academy — OWASP Top 10 |
 | 🟢 Active | TypeScript |
-| 🟣 Fall 2026 | C — Intro to Computer Systems |
-| 🟣 Fall 2026 | Discrete Mathematics |
+
 
 ---
 
