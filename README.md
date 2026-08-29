@@ -31,7 +31,6 @@
       <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
       <img src="https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white" />
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
       <img src="https://img.shields.io/badge/HTML%2FCSS-E34F26?logo=html5&logoColor=white" />
     </td>
   </tr>
@@ -39,6 +38,7 @@
     <td><strong>Backend & frameworks</strong></td>
     <td>
       <img src="https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white" />
+      <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" />
       <img src="https://img.shields.io/badge/Jinja2-B41717?logo=jinja&logoColor=white" />
       <img src="https://img.shields.io/badge/REST%20APIs-005571" />
     </td>
@@ -47,9 +47,9 @@
     <td><strong>Infrastructure & tools</strong></td>
     <td>
       <img src="https://img.shields.io/badge/Linux%2FUnix-000000?logo=linux&logoColor=white" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
       <img src="https://img.shields.io/badge/Git%2FGitHub-F05032?logo=git&logoColor=white" />
       <img src="https://img.shields.io/badge/cron-4D4D4D" />
-      <img src="https://img.shields.io/badge/Chrome%20DevTools-4285F4?logo=googlechrome&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -84,7 +84,9 @@
 
 Replaced a single-machine tkinter script with a multi-user Flask web service. Built a concurrent background job system with threading and subprocess management, UUID-scoped folders to prevent filename collisions, live progress polling via `fetch`/`setInterval`, and optional Gmail email notifications. Filed a scoped OAuth 2.0 access request to Colgate ITS for send-only Gmail API permissions after finding the Workspace policy blocked app-password auth.
 
-*DLMC projects are held in a private institutional repository — code available upon request.*
+Before shipping, I audited my own code and wrote a full threat model — 14 findings including a critical argument-injection RCE. [Read the threat model →](https://github.com/verdxnt/media-downloader-threat-model)
+
+*Source code is held in a private institutional repository — available upon request.*
 
 ---
 
@@ -93,21 +95,21 @@ Replaced a single-machine tkinter script with a multi-user Flask web service. Bu
 
 Replacing in-person USB print handoffs with remote submission across 5 lab printers. Flashed Rinkhals firmware after the stock firmware couldn't be driven over serial, then drove printers over Moonraker's REST API. Built a file-upload endpoint with path-traversal prevention, file-type validation, and identity format checks before touching the filesystem. Aggregates all 5 devices into a single status endpoint.
 
-*DLMC projects are held in a private institutional repository — code available upon request.*
+*Source code is held in a private institutional repository — available upon request.*
+
+---
+
+### 🔬 SAST Security Tool &nbsp; `building`
+> Python · Static Analysis · AppSec
+
+A static analysis tool for detecting vulnerable code patterns in Python codebases — hardcoded secrets, dangerous function calls, missing input sanitization, and other common security issues. Motivated directly by the argument-injection and path-traversal findings in the video downloader threat model.
 
 ---
 
 ### 📋 CareerTrack &nbsp; `building`
-> JavaScript · TypeScript · Chrome Extension · Gmail API · OAuth 2.0
+> JavaScript · Chrome Extension · Gmail API · OAuth 2.0 · PostgreSQL
 
-Chrome extension for tracking job applications — Gmail API integration with OAuth 2.0, auto-parsing of application emails, and a dashboard for status tracking. Built on personal equipment with timestamped commit history.
-
----
-
-### 🔍 URL Intelligence Aggregator &nbsp; `planned`
-> Python · AppSec · DNS · OSINT · REST API
-
-A tool to aggregate threat intelligence on URLs — pulling WHOIS, DNS records, reputation feeds, and redirect chains into a single analyst-friendly view. Motivated by SSRF and recon concepts from PortSwigger Web Security Academy.
+Chrome extension for tracking job applications — Gmail API integration with OAuth 2.0, auto-parsing of application confirmation and recruiter emails, and a dashboard for status tracking. Built on personal equipment with timestamped commit history.
 
 ---
 
@@ -116,8 +118,7 @@ A tool to aggregate threat intelligence on URLs — pulling WHOIS, DNS records, 
 | Status | Topic |
 |--------|-------|
 | 🟢 Active | PortSwigger Web Security Academy — OWASP Top 10 |
-| 🟢 Active | TypeScript |
-
+| 🟢 Active | NeetCode 150 — DSA fundamentals |
 
 ---
 
