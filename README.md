@@ -28,10 +28,12 @@ CS student at Colgate University (Class of 2028), focused on application securit
 
 ---
 
-## Currently studying
+## Currently learning
 
 - PortSwigger Web Security Academy — working through the OWASP Top 10
-- NeetCode 150 — DSA fundamentals
+- Entity resolution
+- TypeScript
+- bash
 
 ## Goals by the end of this year!
 - Make Significant progress on my CareerTrack progress, pitch the venture, and get it somewhere big.
