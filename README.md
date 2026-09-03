@@ -1,132 +1,41 @@
-<!-- Profile README for github.com/verdxnt -->
-
-<div align="center">
-
 # Tobi Onabanjo
 
-**CS @ Colgate University &nbsp;·&nbsp; Application Security + SWE &nbsp;·&nbsp; Class of 2028**
+CS student at Colgate University (Class of 2028), focused on application security and backend development. First-gen student. I build to understand how things work.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tonabanjo)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tonabanjo@colgate.edu)
-
-</div>
+[LinkedIn](https://linkedin.com/in/tonabanjo) · [tonabanjo@colgate.edu](mailto:tonabanjo@colgate.edu)
 
 ---
 
-## 👋 About me
+## What I'm working on
 
-- Building internal tools at **Colgate ITS – DLMC**: a multi-user Flask video downloader and a remote 3D print submission system
-- Working toward application security — actively studying **PortSwigger Web Security Academy** (OWASP Top 10: path traversal, access control, authentication, SSRF done)
-- Interested in the intersection of software development and AppSec — writing systems that are both functional and defensively built from the start
-- First-gen CS student who started from scratch and builds everything by hand to actually understand it
+**DLMC Video Downloader** — Replaced a single-machine desktop script with a multi-user Flask web service for Colgate ITS. Built concurrent background jobs with threading and subprocess management, UUID-scoped folders to prevent filename collisions, live progress polling, and optional email notifications via Gmail API. Before shipping, I audited my own code and wrote a full threat model. [Read the threat model →](https://github.com/verdxnt/media-downloader-threat-model) *(Private institutional repo)*
 
----
+**Remote 3D Print Submission System** *(in progress)* — Replacing USB print handoffs across 5 lab printers with a remote submission system. Flashed Rinkhals firmware after stock firmware couldn't be driven over serial, then built a Flask upload endpoint with path-traversal prevention, file-type validation, and identity format checks. Aggregates all 5 devices into a single status endpoint. *(Private institutional repo)*
 
-## 🧰 Tech stack
+**SAST Security Tool** *(in progress)* — Static analysis tool that detects vulnerable patterns in Python codebases: hardcoded secrets, dangerous function calls, missing input sanitization. Motivated directly by findings in my own threat model work. This project is a challenge i want to take on to imporve my security knowledge or fundamentals
 
-<table>
-  <tr>
-    <td><strong>Languages</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" />
-      <img src="https://img.shields.io/badge/HTML%2FCSS-E34F26?logo=html5&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Backend & frameworks</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white" />
-      <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" />
-      <img src="https://img.shields.io/badge/Jinja2-B41717?logo=jinja&logoColor=white" />
-      <img src="https://img.shields.io/badge/REST%20APIs-005571" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Infrastructure & tools</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Linux%2FUnix-000000?logo=linux&logoColor=white" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
-      <img src="https://img.shields.io/badge/Git%2FGitHub-F05032?logo=git&logoColor=white" />
-      <img src="https://img.shields.io/badge/cron-4D4D4D" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Security (learning)</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/PortSwigger%20WSA-FF6633" />
-      <img src="https://img.shields.io/badge/OWASP%20Top%2010-000000" />
-      <img src="https://img.shields.io/badge/Path%20Traversal-7C3AED" />
-      <img src="https://img.shields.io/badge/Access%20Control-7C3AED" />
-      <img src="https://img.shields.io/badge/Authentication-7C3AED" />
-      <img src="https://img.shields.io/badge/SSRF-7C3AED" />
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Concepts</strong></td>
-    <td>
-      <img src="https://img.shields.io/badge/Concurrency%20%26%20Threading-0F766E" />
-      <img src="https://img.shields.io/badge/Input%20Validation-0F766E" />
-      <img src="https://img.shields.io/badge/OAuth%202.0-0F766E" />
-      <img src="https://img.shields.io/badge/HTTP%20%2F%20TCP--IP-0F766E" />
-      <img src="https://img.shields.io/badge/Client--Server%20Architecture-0F766E" />
-    </td>
-  </tr>
-</table>
+**CareerTrack** *(in progress)* — Chrome extension for tracking job applications. Gmail API integration with OAuth 2.0, auto-parsing of confirmation and recruiter emails, and a plan to be cool looking status dashboard. This project is my venture for my Thought Into Action (TIA) program @ Colgate.
 
 ---
 
-## 🚀 Projects
+## Skills
 
-### 🎬 DLMC Video Downloader &nbsp; `shipped`
-> Python · Flask · JavaScript · REST API · Linux · OAuth 2.0 · Concurrency
-
-Replaced a single-machine tkinter script with a multi-user Flask web service. Built a concurrent background job system with threading and subprocess management, UUID-scoped folders to prevent filename collisions, live progress polling via `fetch`/`setInterval`, and optional Gmail email notifications. Filed a scoped OAuth 2.0 access request to Colgate ITS for send-only Gmail API permissions after finding the Workspace policy blocked app-password auth.
-
-Before shipping, I audited my own code and wrote a full threat model — 14 findings including a critical argument-injection RCE. [Read the threat model →](https://github.com/verdxnt/media-downloader-threat-model)
-
-*Source code is held in a private institutional repository — available upon request.*
+**Languages:** Python, Java, JavaScript, HTML/CSS  
+**Backend:** Flask, Node.js, Jinja2, REST APIs  
+**Tools:** Linux/Unix, Docker, Git  
+**Security:** PortSwigger Web Security Academy (path traversal, access control, authentication, SSRF), OWASP Top 10, threat modeling writeup
+**Concepts:** Concurrency and threading, input validation, OAuth 2.0, HTTP/TCP-IP, client-server architecture
 
 ---
 
-### 🖨️ Remote 3D Print Submission System &nbsp; `in progress`
-> Python · Flask · REST API · Linux · Input Validation · Firmware
+## Currently studying
 
-Replacing in-person USB print handoffs with remote submission across 5 lab printers. Flashed Rinkhals firmware after the stock firmware couldn't be driven over serial, then drove printers over Moonraker's REST API. Built a file-upload endpoint with path-traversal prevention, file-type validation, and identity format checks before touching the filesystem. Aggregates all 5 devices into a single status endpoint.
+- PortSwigger Web Security Academy — working through the OWASP Top 10
+- NeetCode 150 — DSA fundamentals
 
-*Source code is held in a private institutional repository — available upon request.*
+## Goals by the end of this year!
+- Make Significant progress on my CareerTrack progress, pitch the venture, and get it somewhere big.
+- Open source contribution
+- Improve skillsets
+- Start technical write ups on HashNodes
 
----
-
-### 🔬 SAST Security Tool &nbsp; `building`
-> Python · Static Analysis · AppSec
-
-A static analysis tool for detecting vulnerable code patterns in Python codebases — hardcoded secrets, dangerous function calls, missing input sanitization, and other common security issues. Motivated directly by the argument-injection and path-traversal findings in the video downloader threat model.
-
----
-
-### 📋 CareerTrack &nbsp; `building`
-> JavaScript · Chrome Extension · Gmail API · OAuth 2.0 · PostgreSQL
-
-Chrome extension for tracking job applications — Gmail API integration with OAuth 2.0, auto-parsing of application confirmation and recruiter emails, and a dashboard for status tracking. Built on personal equipment with timestamped commit history.
-
----
-
-## 📚 Currently learning
-
-| Status | Topic |
-|--------|-------|
-| 🟢 Active | PortSwigger Web Security Academy — OWASP Top 10 |
-| 🟢 Active | NeetCode 150 — DSA fundamentals |
-
----
-
-## 🔗 Connect
-
-<a href="https://linkedin.com/in/tonabanjo">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="mailto:tonabanjo@colgate.edu">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
