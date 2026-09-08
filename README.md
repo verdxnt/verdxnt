@@ -38,7 +38,7 @@ What I've done so far:
 What I'm working on solving:
 - Instead of hardcoding the logic that tracks the chain of other germane-related emails (quite impossible btw), I am trying to solve the entity resolution problem since   I expect to get germane-related emails from non-automated emails like (e.g recruiters' email, subject organizer email, or essentially any other real human email that    might be connected to a previously automated email)
 
-- 
+
 ---
 
 ## Skills
