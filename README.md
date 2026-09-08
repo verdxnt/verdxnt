@@ -8,7 +8,7 @@ CS student at Colgate University (Class of 2028), focused on application securit
 
 ## What I'm working on
 
-**DLMC Video Downloader** — Replaced a single-machine desktop script with a multi-user Flask web service for Colgate ITS. Built concurrent background jobs with threading and subprocess management, UUID-scoped folders to prevent filename collisions, live progress polling, and optional email notifications via Gmail API. Before shipping, I audited my own code and wrote a full threat model. [Read the threat model →](https://github.com/verdxnt/media-downloader-threat-model) *(Private institutional repo)*
+**DLMC Video Downloader** — Replaced a single-machine desktop script with a multi-user Flask web service for Colgate ITS. Built concurrent background jobs with threading and subprocess management, UUID-scoped folders to prevent filename collisions, live progress polling, and optional email notifications via Gmail API. Before deployment steps, I audited my own code and wrote a full threat model. [Read the threat model →](https://github.com/verdxnt/media-downloader-threat-model) *(Private institutional repo)*
 
 **Remote 3D Print Submission System** *(in progress)* — 
 Replacing USB print flow across 5 lab printers with a remote submission system and slicing instructions plan.
