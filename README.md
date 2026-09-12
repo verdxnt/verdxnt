@@ -43,7 +43,7 @@ What I've done so far:
 - Hardcoded backend Logic that grabs all internship applications using application keywords from automated emails like "Thank you for applying to/for...", "we have received your...", name of  organization like "noreply@mail.amazon.jobs", date, etc
 
 What I'm working on solving:
-- Instead of hardcoding the logic that tracks the chain of other germane-related emails (quite impossible btw), I am trying to solve the entity resolution problem since   I expect to get germane-related emails from non-automated emails like (e.g recruiters' email, subject organizer email, or essentially any other real human email that    might be connected to a previously automated email)
+- Instead of hardcoding the logic that tracks the chain of other germane-related emails (quite impossible btw), I am trying to solve the entity resolution problem since I expect to get germane-related emails from non-automated emails like (e.g recruiters' email, subject organizer email, or essentially any other real human email that    might be connected to a previously automated email)
 
 
 ---
@@ -65,7 +65,7 @@ What I'm working on solving:
 - TypeScript
 - React
 - A little bit of bash for testing
-- more security tools that i may need for my SAST project
+- more security tools/concpets that i may need for my SAST project
 
 ## Goals by the end of this year!
 - Make Significant progress on my CareerTrack progress, pitch the venture, and get it somewhere big.
