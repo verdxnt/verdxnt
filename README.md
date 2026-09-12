@@ -75,7 +75,7 @@ The application uses an LLM at its core, and the hardest problem I've hit is ent
 - Abstract Syntax Tree (AST) and how it connects to Static Application Security Testing (SAST)
 
 ## Goals by the end of this year!
-- Make Significant progress on my CareerTrack progress, pitch the venture, and get it somewhere big.
+- Make Significant progress on my InTrack progress, pitch the venture, and get it somewhere big.
 - Open source contribution to OWASP Juice shop or Bandit
 - Improve skill sets
 - Start technical write-ups on HashNodes
