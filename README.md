@@ -9,7 +9,7 @@
 
 ---
 
-## What I'm worked/working on
+## Projects
 
 **DLMC Video Downloader** *(completed)*— Replaced a single-machine desktop script with a multi-user Flask web service for Colgate ITS. Built concurrent background jobs with threading and subprocess management, UUID-scoped folders to prevent filename collisions, live progress polling, and optional email notifications via Gmail API. Before deployment steps, I audited my own code and wrote a full threat model. [Read the threat model →](https://github.com/verdxnt/media-downloader-threat-model) *(Private institutional repo)*
 
@@ -47,12 +47,11 @@ The application uses an LLM at its core, and the hardest problem I've hit is ent
 ---
 
 ## Skills
-
-**Languages:** Python, Java, JavaScript, HTML/CSS
-**Backend:** Flask, Jinja2, REST APIs
-**Tools:** Linux/Unix CLI, Git/GitHub, Docker (familiar)
-**Security:** PortSwigger Web Security Academy — Path Traversal, Access Control, Authentication, SSRF, OS Command Injection, SQL Injection, File Upload Vulnerabilities; threat modeling writeup
-**Concepts:** OAuth 2.0, Concurrency & Threading, Input Validation, HTTP/TCP-IP, Client-Server Architecture
+- Languages: Python, Java, JavaScript, HTML/CSS
+- Backend: Flask, Jinja2, REST APIs
+- Tools: Linux/Unix CLI, Git/GitHub, Docker (familiar)
+- Security: PortSwigger Web Security Academy — Path Traversal, Access Control, Authentication, SSRF, OS Command Injection, SQL Injection, File Upload Vulnerabilities; threat modeling writeup
+- Concepts: OAuth 2.0, Concurrency & Threading, Input Validation, HTTP/TCP-IP, Client-Server Architecture
 ---
 
 ## Currently learning
@@ -61,9 +60,10 @@ PortSwigger Web Security Academy — working through the OWASP Top 10
 Entity resolution
 Abstract Syntax Trees (AST) and how they connect to Static Application Security Testing (SAST)
 
-## Goals by the end of this year!
+## Goals
 - Make Significant progress on my InTrack progress, pitch the venture, and get it somewhere big.
-- Open source contribution to OWASP Juice shop or Bandit
+- Open source contribution
 - Improve skill sets
+- Gain experience oppurtunities
 
 
