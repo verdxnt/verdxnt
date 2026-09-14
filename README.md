@@ -56,9 +56,9 @@ The application uses an LLM at its core, and the hardest problem I've hit is ent
 
 ## Currently learning
 
-PortSwigger Web Security Academy — working through the OWASP Top 10
-Entity resolution
-Abstract Syntax Trees (AST) and how they connect to Static Application Security Testing (SAST)
+- PortSwigger Web Security Academy. Working through the OWASP Top 10
+- Entity resolution
+- Abstract Syntax Trees (AST) and how they connect to Static Application Security Testing (SAST)
 
 ## Goals
 - Make Significant progress on my InTrack progress, pitch the venture, and get it somewhere big.
